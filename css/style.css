@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
+    width: var(--container-width);
     margin: auto;
 }
 ul.nav {
@@ -43,7 +43,7 @@ section.hero {
 }
 .heroContainer {
     margin: auto;
-    width: 1400px;
+    width: var();
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ section.hero {
     margin-top: 0;
 }
 .projects .sectionTitle {
-    text-align: center;
+    text-align:center;
 }
 .projectContainer{
     display:flex;
@@ -88,7 +88,7 @@ section.hero {
 .projectCard{
     width: 100%;
     border: 1px solid var(--gray-extra-light);
-    background: var(--white);
+    background: rgb(241, 183, 220);
 }
 .cardImage{
     width: 100%;
@@ -109,7 +109,7 @@ section.hero {
 }
 .btnPrimary{
     border-radius: 0.25rem;
-    background: var(--primary);
+    background: #5F8A63;
     padding: 0.625rem;
     color: var(--white);
     font-size: var(--font-size-button);
