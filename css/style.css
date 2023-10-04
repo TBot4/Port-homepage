@@ -25,14 +25,14 @@ ul.nav {
     padding: 16px 20px;
     text-decoration: none;
     font-size: var(--font-size-navigation);
-    color: var(--primary);
+    color: rgb(33, 57, 33);
 }
 .navItem:hover {
-    color: var(--primary-dark);
-    background-color: var(--secondary-light);
+    color: pink;
+    background-color: rgb(240, 114, 135);
 }
 .navItem.selected{
-    color: var(--secondary-dark);
+    color: rgb(108, 160, 108);
 }
 .mobileMenu{
     display:none;
