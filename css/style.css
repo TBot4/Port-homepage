@@ -28,8 +28,8 @@ ul.nav {
     color: rgb(33, 57, 33);
 }
 .navItem:hover {
-    color: pink;
-    background-color: rgb(240, 114, 135);
+    color: rgb(5, 48, 30);
+    background-color: rgb(181, 68, 183);
 }
 .navItem.selected{
     color: rgb(108, 160, 108);
