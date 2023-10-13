@@ -197,6 +197,7 @@ footer {
     .projectCard{
         width: 48%;
     }
+    
 }
 @media all and (max-width: 768px) {
     .heroContainer{
