@@ -46,6 +46,7 @@ ul.nav {
 }
 .mobileMenu{
     position: relative;
+    display: none;
 }
 
 .mobileNav {
@@ -197,7 +198,7 @@ footer {
     .projectCard{
         width: 48%;
     }
-    
+
 }
 @media all and (max-width: 768px) {
     .heroContainer{
