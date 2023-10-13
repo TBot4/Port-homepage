@@ -23,15 +23,16 @@ body{
     padding: 16px 20px;
     text-decoration: none;
     font-size: var(--font-size-navigation);
-    color: var(--Primary);
+    color: rgb(49, 109, 49);
+
  }
  .navItem:hover{
-    color: var(--Primary-dark);
-    background-color: var(--Secondary-light);
+    color: rgb(5, 48, 30);
+    background-color: rgb(181, 68, 183);
  }
 
  .navItem.selected{
-    color: var(--Secondary-dark);
+    color: rgb(105, 172, 105);
  }
 
 .mobileMenu{
@@ -96,7 +97,7 @@ body{
  .projectCard{
     width: 100%;
     border: 1px solid var(--Gray-extra-light);
-    background: var(--white);
+    background: rgb(241, 183, 220);
  }
  .cardImage{
     width: 100%;
@@ -119,7 +120,7 @@ body{
 
  .btnPrimary{
     border-radius: 0.25rem;
-    background: var(--Primary);
+    background: rgb( 28, 49, 28);
     padding: 0.625rem;
     color: var(--white);
     font-size: var(--font-size-button);
@@ -226,7 +227,7 @@ body{
    padding: 20px 30px;
    text-decoration: none;
    border-bottom: 1px solid var(--Primary-extra-light);
-   color: var(--Primary);
+   color: rgb(49, 109, 49);
 }
 .mobileMenu{
    position: relative;
@@ -235,12 +236,16 @@ body{
    position: absolute;
    right: -20px;
    top: 30px;
-   background-color: white;
+   background-color: rgb(241, 183, 220);
    width: 100vw;
    display: none;
 }
+.mNavItem:Hover{
+    color: rgb(5, 48, 30);
+    background-color: rgb(181, 68, 183);
+ }
 
 .mNavItem.selected{
    font-weight: bold;
-    color: var(--Secondary-dark);
+    color: rgb(105, 172, 105);
 }
